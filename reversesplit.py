@@ -1,8 +1,8 @@
 x1=input()
-z=x1.split()
-n=len(z)
+z1=x1.split()
+n=len(z1)
 b=''
 for a in range(0,n):
-    y=list(reversed(z[a]))
+    y=list(reversed(z1[a]))
     b=b+''.join(y)+' '
 print(b)    
