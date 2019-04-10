@@ -4,7 +4,7 @@ c=0
 s=""
 for j in range(0,len(list1)):
     if j==list1[j]:
-          s=s+str(l[j])+""
+          s=s+str(list1[j])+""
           c=c+1
 if c==0:
     print(-1)
