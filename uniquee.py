@@ -11,5 +11,5 @@ def Repeat(x):
     print(repeated)
 n=int(input())
 list1=list(map(int,input().split()))
-print (Repeated(list1))
+print (Repeat(list1))
    
