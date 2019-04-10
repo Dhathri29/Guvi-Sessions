@@ -1,7 +1,7 @@
 n,m=map(int,input().split()))
-l2=input().split()
+l11=input().split()
 l=[]
-for x in l2:
+for x in l11:
    l.append(int(x))
 l.sort()
 for x in range(0,len(l)):
