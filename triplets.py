@@ -1,4 +1,4 @@
-s=int(input())
+s1=int(input())
 n=input().split()
 d=0
 for i in range(0,len(n)):
