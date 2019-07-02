@@ -1,7 +1,7 @@
 n=int(input())
-l=lis(map(int,input().split()))
-s1=l[1:n:2]
-s2=l[0:n:2]
+lis=list(map(int,input().split()))
+s1=lis[1:n:2]
+s2=lis[0:n:2]
 if(sum(s1)>=sum(s2)):
     print(sum(s1))
 else:
