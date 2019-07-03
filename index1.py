@@ -5,4 +5,4 @@ e=list(map(int,input().split()))[:b]
 f=list(map(int,input().split()))[:b]
 print(min(c1+d))
 print(min(c1+e))
-print(min(c+f))
+print(min(c1+f))
