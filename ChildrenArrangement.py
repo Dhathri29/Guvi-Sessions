@@ -1,5 +1,5 @@
-chat=int(input())
-if chat%2==0:
-   print(chat*(chat//2)-(chat//2))
+c=int(input())
+if c%2==0:
+   print(c*(c//2)-(c//2))
 else:
-   print(chat*(chat//2))
+   print(c*(c//2))
