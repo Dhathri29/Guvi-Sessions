@@ -1,3 +1,3 @@
 a=int(input())
-n=list(map(int,input().split()))
-print(max(n))
+b=list(map(int,input().split()))
+print(max(b))
