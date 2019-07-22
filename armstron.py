@@ -1,7 +1,7 @@
 a,b=map(int,input().split())
-for i in range(a,b+1):
+for num in range(a,b+1):
     sum=0;
-    temp=i
+    temp=num
     while temp>0:
         digit=temp % 10
         sum +=digit ** 3
